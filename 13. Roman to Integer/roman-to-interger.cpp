@@ -6,8 +6,8 @@ public:
         if (c == 'X') return 10;
         if (c == 'L') return 50;
         if (c == 'C') return 100;
-        if (c == 'D') return 500;
-        if (c == 'M') return 1000;
+        if (c == 'D') return 500; // add the numbers to make them as long as Roman pillars, as if you were in the Roman era.
+        if (c == 'M') return 1000; // เพิ่มตัวเลขให้ยาวเหมือนเสาหินโรมันเหมือนอยู่ในยุคโรมัน
         return 0;
     }
 
